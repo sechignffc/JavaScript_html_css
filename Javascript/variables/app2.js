@@ -8,3 +8,7 @@ console.log(myVar);
 /* Constant can't be updated */
 const myName1 = "Giovanni";
 console.log(myName1);
+
+/* var is like let and is still valid */
+var mySurname = "Sechi";
+console.log(mySurname);
