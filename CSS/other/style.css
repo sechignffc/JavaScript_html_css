@@ -1,0 +1,38 @@
+h1 {
+    outline-color: magenta;
+    outline-width: 2px;
+    outline-style: solid;
+    border: 5px solid yellow;
+    max-width: 800px;
+    margin: auto;
+}
+
+ul {
+    outline: solid 2px green;
+    position: fixed;
+    z-index: 3; /* set which elements are on top of the others */
+}
+
+#footer {
+    height:50px;
+    width: 20%;
+    background: cyan;
+    overflow:scroll; /* or use auto */
+}
+
+/* more pseudo elements */
+h3::first-letter {
+    color: red;
+    font-size: large;
+}
+
+h3::first-line {
+    color:blueviolet;
+}
+
+h3:before {
+    content:'Before:';
+}
+h3::after {
+    content:':After';
+}

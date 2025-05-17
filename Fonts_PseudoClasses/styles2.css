@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+   font-family: sans-serif; 
+   font-style: italic;
+   font-weight: 800;
+   font-variant: small-caps;
+   font-size: 100%;
+}
+
+a:link {
+    color:blue;    
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color:chocolate;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkolivegreen;
+}
+
+li {
+    color: white;
+    background-color: black;
+    /* see list horoozontally */
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    position: fixed; /* fix the position. Sticky is a similar option */
+}
+
+.bigger {
+    color: red;
+    font-size: 24px;
+}
+
+h1 {
+    /* resizes based on the window size */
+    font-size: 12vw;
+    color: blue;
+    text-align: center;
+    float: right; /* float text right to avoid another item */
+}
+
+h3 {
+    color:brown;
+    /* multiple properties */
+    font: normal bold 1.5em Arial;
+    position: absolute; /* forced absolute position */
+    top: 100px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+h3:hover {
+    background-color: aquamarine;
+}
+
+#footer {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5em;
+}
+
+/* only apply to the spans in the footer */
+#footer span {
+    /* visibility: visible; ---This option leaves whitespace
+    display: none; --- this option does not*/
+    color:coral;
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white
+}
+
+.header {
+    
+}
+
+.main {
+    display:grid;
+    grid-template-areas: 'cola colb colb colb colc';
+}
+
+.main aside:first-child {
+    grid-area: cola;  
+    background-color: steelblue;  
+}
+
+.main h1 {
+    grid-area: colb;  
+    background-color: lightgreen; 
+}
+
+.main > p {
+    grid-area: colc;  
+    background-color: orange; 
+}
+
+#footer {
+
+}
+
+@media (max-width:640px) {
+    .main {
+        grid-template-areas: 
+        'cola' 
+        'colb'
+        'colc';
+    }   
+}
+

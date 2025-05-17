@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Table Example</title>
+        <!-- table styling -->
+        <style>
+            table, th, td{
+                border:1px solid black;
+                border-collapse: collapse;  
+                padding: 5px;  
+            }
+        </style>
+    </head>
+    <body>
+        <!-- this a table header, tr is table row, td for the table cells -->
+        <table>
+            <!-- Column group tag to select specific columns-->
+            <colgroup>
+                <!-- use this to cump across 2 rows-->
+                <col span="2">
+                <!-- now row 3 gets highlighted -->
+                <col span="1" style="background-color: red;">
+            </colgroup>
+            <tr>
+                <th>Name</th>
+                <th>Chapter 1</th>
+                <th>Chapter 2</th>
+                <th>Chapter 3</th>
+                <th>Chapter 4</th>
+            </tr>
+             <tr>
+                <td>Gio</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td> </td>
+            </tr>
+             <tr>
+                <td>Luca</td>
+                <td>x</td>
+                <td>x</td>
+                <td></td>
+                <td></td>
+            </tr>
+             <tr>
+                <td>Tates</td>
+                <td>x</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
