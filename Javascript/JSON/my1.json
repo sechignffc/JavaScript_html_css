@@ -1,0 +1,20 @@
+{
+    "name": "Giovanni Sechi",
+    "age": 51,
+    "address": {
+        "street": "106 Chelmer Village Way",
+        "city": "Chelmsford",
+        "state": "Essex",
+        "zip": 10001
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "07725 867048"
+        },
+        {
+            "type": "work",
+            "number": "0207 8156723"
+        }
+    ]
+}

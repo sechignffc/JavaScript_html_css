@@ -1,0 +1,37 @@
+[
+    {
+        "name": {
+            "first": "Giovanni",
+            "last": "Sechi"
+        },
+        "age": 51,
+        "location": {
+            "city": "Chelmsford",
+            "country": "UK"
+        }
+    },
+    {
+        "name": {
+            "first": "Pierra",
+            "last": "Sechi"
+        },
+        "age": 81,
+        "location": {
+            "city": "Alghero",
+            "country": "Italy"
+        }
+    },
+    {
+        "name": {
+            "first": "Svetlana",
+            "last": "Crnadak"
+        },
+        "age": 55,
+        "location": {
+            "city": "Belgrade",
+            "country": "Serbia"
+        }
+    }
+]
+
+
