@@ -19,26 +19,18 @@
     clear:both;
 }
 
-.heading {
-    font-size:3em;
-    padding:10px;
-    font-family: "Poetsen One", sans-serif;
-    text-transform: uppercase;
-}
-
-header .mainheading {
-    border: 5px solid goldenrod;
-    border-style: ridge;
+.mainheading {
+    background: #111; /* Deeper black for modern look */
+    border: 4px solid goldenrod;
     border-radius: 20px;
-    padding: 10px;
-    background-color: black;
-    text-shadow:
-        2px 2px 0 gold,           /* White outline, top left */
-        4px 4px 0 white,      /* Gold shadow, bottom right */
-        6px 6px 8px #111,         /* Deep black shadow for depth */
-        0 10px 16px rgba(0,0,0,0.35),
-        0 2px 0 rgba(0,0,0,0.5);  /* Subtle bottom shadow */
-
+    padding: 24px 36px;
+    margin: 32px auto 18px auto;
+    /* Add a soft golden glow around for contrast */
+    box-shadow:
+        0 0 0 4px rgba(218, 165, 32, 0.27),
+        0 8px 24px 0 rgba(0,0,0,0.45); /* shadow beneath */
+    max-width: 750px;
+    text-align: center;
 }
 
 .subheading {
@@ -182,73 +174,9 @@ div {
     color:goldenrod;
 }
 
-.timetable p {
-    color: goldenrod;
-    font-size: 1.2em;
-}
-
 .image_gallery {
     border-bottom: 1px solid goldenrod;
 }
-
-.news_grid {
-    background-color: black;
-    padding: 20px;
-    border-bottom: 5px solid goldenrod;
-}
-
-.news_grid table {
-    padding: 5px;
-}
-
-.news_grid table td {
-    padding: 20px;
-}
-
-.news_grid p {
-    color: goldenrod;
-    font-size: 1.25em;
-}
-
-.main .forBorder {
-    background-color: black;
-    border-bottom: 1px solid goldenrod;
-}
-
-.honours {
-    background-color: black;
-    margin: 50px;
-    
-}
-
-.honours p {
-    font-size: 1.5em;
-}
-
-.honours img {
-    width: 175px;
-    height: 200px;
-}
-
-.honours h1 {
-    font-size: 3em;
-    padding-top: 50px;
-}
-
-.honours h2 {
-    font-size: 2em;
-}
-
-.honours ul {
-    color: goldenrod;
-    font-size: 1.5em;
-    list-style: none;
-}
-
-.honours td {
-    padding: 10px;
-}
-
 
 .footer {
     text-align: center; 
@@ -256,11 +184,6 @@ div {
     padding: 20px;
     background-color: black;
     font-size: 1.25em;
-}
-
-.footer p {
-    margin:2px;
-    padding: 0px;
 }
 
 .footer:after {
@@ -367,25 +290,6 @@ div {
 
     .main .image_gallery img {
         width: 90%;  
-    }
-
-    .news_grid table img {
-        width: 100px;
-    }
-
-    .honours {
-        background-color: black;
-        margin: 10px;    
-    }
-
-    .honours h1 {
-        font-size: 3em;
-        padding-top: 0px;
-    }
-
-    .honours img {
-        width: 100px;
-        height: 125px;
     }
 
     .first, .third {

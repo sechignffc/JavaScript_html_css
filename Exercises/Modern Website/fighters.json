@@ -4,26 +4,80 @@
         "lastname" : "Sechi",
         "nickname" : "The Assassin",
         "fights" : 12,
-        "year" : 2012
+        "year" : 2012,
+        "image" : "1000.jpg",
+        "achievements" : ["Home Counties Box Cup Finalist","Eastern Counties Finalist"]
     },
     {
         "firstname" : "Kenny",
         "lastname" : "Sturt",
         "nickname" : "Chelmsford StreetBeefs",
-        "fights" : 9
+        "fights" : 9,
+        "year" : 2012,
+        "image" : "1400.jpg",
+        "achievements" : []
     },
     {
         "firstname" : "Tommy",
         "lastname" : "Pemberton",
         "nickname" : "Quicksilver",
-        "fights" : 7
+        "fights" : 7,
+        "year" : 2012,
+        "image" : "1000.jpg",
+        "achievements" : ["Schools National Finalist"]
     },
     {
         "firstname" : "Radley",
         "lastname" : "Brown",
         "nickname" : "Bomber",
-        "fights" : 8
-
-
+        "fights" : 8,
+        "year" : 2012,
+        "image" : "2200.jpg",
+        "achievements" : []
+    },
+    {
+        "firstname" : "Ron",
+        "lastname" : "Norman",
+        "nickname" : "Ronnie",
+        "fights" : 3,
+        "year" : 2010,
+        "image" : "2700.jpg",
+        "achievements" : []
+    },
+    {
+        "firstname" : "Elin-Rose",
+        "lastname" : "Chapman",
+        "nickname" : "Chappers",
+        "fights" : 13,
+        "year" : 2012,
+        "image" : "2100.jpg",
+        "achievements" : ["National Schools Winner","National Schools Finalist","National Schools Semi-finalist"]
+    },
+    {
+        "firstname" : "John",
+        "lastname" : "Purdy",
+        "nickname" : "Lights Out",
+        "fights" : 8,
+        "year" : 2013,
+        "image" : "2400.jpg",
+        "achievements" : []
+    },
+    {
+        "firstname" : "Stan",
+        "lastname" : "Brown",
+        "nickname" : "Stealth",
+        "fights" : 5,
+        "year" : 2012,
+        "image" : "2300.jpg",
+        "achievements" : []
+    },
+    {
+        "firstname" : "Ronnie",
+        "lastname" : "Down",
+        "nickname" : "Italia",
+        "fights" : 7,
+        "year" : 2012,
+        "image" : "1000.jpg",
+        "achievements" : []
     }
 ]
