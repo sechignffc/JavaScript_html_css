@@ -13,6 +13,7 @@
 .logo img {
     height: 125px;
     width: 125px;
+    filter: brightness(1.5);
 }
 
 .nav {
@@ -102,7 +103,7 @@ header nav a:hover {
     color: black;
 }
 
-.main{
+.main {
     clear:both;
     background-color: black;
     color:white;
@@ -161,9 +162,14 @@ header nav a:hover {
    overflow:hidden;
 }
 
-.main article p::first-letter {
+.main article  {
     font-size:1.5em;
+    color: white;
+}
+
+.main article::first-letter {
     color: goldenrod;
+    font-size: 1.65em;
 }
 
 div {
@@ -223,11 +229,14 @@ div {
 
 .honours p {
     font-size: 1.5em;
+    color: goldenrod;
 }
 
 .honours img {
     width: 175px;
     height: 200px;
+    border: 5px solid goldenrod;
+    border-style:inset;
 }
 
 .honours h1 {
@@ -245,10 +254,65 @@ div {
     list-style: none;
 }
 
-.honours td {
+.honours tr {
     padding: 10px;
 }
 
+.boxers {
+    background-color: black;
+    padding: 30px;
+    color:black;
+    border-bottom: 1px solid goldenrod;
+}
+
+.boxers div {
+    background-color: black;
+}
+
+.boxers select {
+    width: 300px;
+    color: white;
+    background-color: goldenrod;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    appearance: none; /* Makes custom styling work better */
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.boxers select:focus,
+.boxers select:hover {
+    border-color: black;
+    box-shadow: 0 0 5px goldenrod;
+}
+
+.boxers td {
+    vertical-align: top;
+}
+
+.boxers img {
+    width:40%;
+    min-width: 30%;
+    background-color: black;
+    padding: 5px;
+    border: 3px solid white;
+    border-style:ridge;
+}
+
+.boxers p {
+    color: white;
+    font-size: 2em;
+}
+
+.boxers p::after {
+    clear:both;
+}
 
 .footer {
     text-align: center; 
@@ -325,7 +389,7 @@ div {
     display:block;
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 1000px) {
     body{
         background-color: black;
     }

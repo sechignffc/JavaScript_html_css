@@ -1,7 +1,6 @@
 [
     {
-        "firstname" : "Luca",
-        "lastname" : "Sechi",
+        "name" : "Luca Sechi",
         "nickname" : "The Assassin",
         "fights" : 12,
         "year" : 2012,
@@ -9,53 +8,47 @@
         "achievements" : ["Home Counties Box Cup Finalist","Eastern Counties Finalist"]
     },
     {
-        "firstname" : "Kenny",
-        "lastname" : "Sturt",
+        "name" : "Kenny Sturt",
         "nickname" : "Chelmsford StreetBeefs",
         "fights" : 9,
-        "year" : 2012,
+        "year" : 2002,
         "image" : "1400.jpg",
         "achievements" : []
     },
     {
-        "firstname" : "Tommy",
-        "lastname" : "Pemberton",
+        "name" : "Tommy Pemberton",
         "nickname" : "Quicksilver",
         "fights" : 7,
-        "year" : 2012,
-        "image" : "1000.jpg",
+        "year" : 2013,
+        "image" : "3000.jpg",
         "achievements" : ["Schools National Finalist"]
     },
     {
-        "firstname" : "Radley",
-        "lastname" : "Brown",
+        "name" : "Radley Brown",
         "nickname" : "Bomber",
         "fights" : 8,
-        "year" : 2012,
-        "image" : "2200.jpg",
+        "year" : 2008,
+        "image" : "2900.jpg",
         "achievements" : []
     },
     {
-        "firstname" : "Ron",
-        "lastname" : "Norman",
+        "name" : "Ron Norman",
         "nickname" : "Ronnie",
         "fights" : 3,
         "year" : 2010,
-        "image" : "2700.jpg",
+        "image" : "2500.jpg",
         "achievements" : []
     },
     {
-        "firstname" : "Elin-Rose",
-        "lastname" : "Chapman",
+        "name" : "Elin-Rose Chapman",
         "nickname" : "Chappers",
         "fights" : 13,
-        "year" : 2012,
+        "year" : 2011,
         "image" : "2100.jpg",
         "achievements" : ["National Schools Winner","National Schools Finalist","National Schools Semi-finalist"]
     },
     {
-        "firstname" : "John",
-        "lastname" : "Purdy",
+        "name" : "John Purdy",
         "nickname" : "Lights Out",
         "fights" : 8,
         "year" : 2013,
@@ -63,21 +56,19 @@
         "achievements" : []
     },
     {
-        "firstname" : "Stan",
-        "lastname" : "Brown",
-        "nickname" : "Stealth",
+        "name" : "Stan Brown",
+        "nickname" : "Stealth Bomber",
         "fights" : 5,
-        "year" : 2012,
+        "year" : 2010,
         "image" : "2300.jpg",
         "achievements" : []
     },
     {
-        "firstname" : "Ronnie",
-        "lastname" : "Down",
-        "nickname" : "Italia",
+        "name" : "Ronnie Down",
+        "nickname" : "The Italian",
         "fights" : 7,
-        "year" : 2012,
-        "image" : "1000.jpg",
+        "year" : 2005,
+        "image" : "2800.jpg",
         "achievements" : []
     }
 ]

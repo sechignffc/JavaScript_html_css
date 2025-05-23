@@ -21,6 +21,7 @@ function cGallery(images) {
   btn1.textContent = "Prev";
   const btn2 = document.createElement("button");
   btn2.textContent = "Next";
+
   image_gallery.append(gallery);
   gallery.append(curImage);
   gallery.append(btn1);
