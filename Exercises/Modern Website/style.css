@@ -11,9 +11,9 @@
 }
 
 .logo img {
-    height: 125px;
-    width: 125px;
-    filter: brightness(1.5);
+    height: 145px;
+    width: 150px;
+    filter: brightness(1.8);
 }
 
 .nav {
@@ -303,6 +303,7 @@ div {
     padding: 5px;
     border: 3px solid white;
     border-style:ridge;
+    border-radius: 12px;
 }
 
 .boxers p {
