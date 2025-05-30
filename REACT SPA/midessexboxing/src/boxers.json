@@ -1,0 +1,164 @@
+[
+    {
+        "name" : "Luca Sechi",
+        "nickname" : "The Assassin",
+        "fights" : 12,
+        "year" : 2012,
+        "image" : "1000.jpg",
+        "achievements" : ["Home Counties Box Cup Finalist","Eastern Counties Finalist"],
+        "bio": ""
+    },
+    {
+        "name" : "Kenny Sturt",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2002,
+        "image" : "1400.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Tommy Pemberton",
+        "nickname" : "Pembo Junior",
+        "fights" : 8,
+        "year" : 2013,
+        "image" : "8500.jpg",
+        "achievements" : ["Schools National Semi-Finalist", "Eastern Counties Champion"],
+        "bio": ""
+    },
+    {
+        "name" : "Radley Brown",
+        "nickname" : "Bomber",
+        "fights" : 0,
+        "year" : 2006,
+        "image" : "2900.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Ron Norman",
+        "nickname" : "Ronnie",
+        "fights" : 0,
+        "year" : 2010,
+        "image" : "2500.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Elin Chapman",
+        "nickname" : "Ellie",
+        "fights" : 10,
+        "year" : 2011,
+        "image" : "8400.jpg",
+        "achievements" : ["National Schools Winner","National Schools Finalist","National Schools Semi-finalist","3 x Eastern Counties Champion","Eastern Counties Best Female Junior 2025"],
+        "bio": ""
+    },
+    {
+        "name" : "Johnny Purdy",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2012,
+        "image" : "2400.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Stan Brown",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2010,
+        "image" : "7800.jpg",
+        "achievements" : ["Eastern Counties Finalist"],
+        "bio": ""
+    },
+    {
+        "name" : "Ronnie Down",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2005,
+        "image" : "2800.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Logan Grover",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2014,
+        "image" : "3400.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Jenson Lockwood",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2014,
+        "image" : "8200.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Bayley Coppin",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2006,
+        "image" : "1300.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Tom Charnock",
+        "nickname" : "None",
+        "fights" : 2,
+        "year" : 1999,
+        "image" : "2000.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Tom Clarke",
+        "nickname" : "None",
+        "fights" : 3,
+        "year" : 1999,
+        "image" : "3600.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Zach Brett",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2011,
+        "image" : "3700.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Matthew Kerr",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2007,
+        "image" : "3800.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Shae Barry",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2005,
+        "image" : "3900.jpg",
+        "achievements" : [],
+        "bio": ""
+    },
+    {
+        "name" : "Maddie Taylor",
+        "nickname" : "None",
+        "fights" : 0,
+        "year" : 2013,
+        "image" : "4100.jpg",
+        "achievements" : [],
+        "bio": ""
+    }
+]

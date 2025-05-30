@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+    background-color: black;
+    padding: 1rem;
+}
+
+.container {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    background-color: white;
+    flex: 0 0 auto;
+}
+
+.logo img {
+    width: 200px;
+    height:auto;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.mainheading {
+    display: flex;
+    align-items: Center;
+    gap:24px;
+    border: 5px solid goldenrod;
+    border-style: ridge;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    text-shadow:
+        2px 2px 0 gold,           
+        4px 4px 0 white,      
+        6px 6px 8px #111,         
+        0 10px 16px rgba(0,0,0,0.35),
+        0 2px 0 rgba(0,0,0,0.5);  
+
+}
+
+.mainheading h1 {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.heading {
+    flex: 1 1 0%;
+    font-size:2em;
+    padding:10px;
+    font-family: "Poetsen One", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 1.5em;
+    padding:10px;
+    margin-bottom: 5px;
+    color: goldenrod;
+    text-align: center;
+    background-color: white;
+    text-shadow:
+        2px 2px 0 gold,           /* White outline, top left */
+        4px 4px 0 black,      /* Gold shadow, bottom right */
+        6px 6px 8px #111,         /* Deep black shadow for depth */
+        0 10px 16px rgba(0,0,0,0.35),
+        0 2px 0 rgba(0,0,0,0.5);  /* Subtle bottom shadow */
+
+}
+
+.header-spacer {
+    flex: 0 0 200px;
+}
+
+
+.nav {
+    background-color: black;
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+    position: relative;
+    float: left;
+}
+
+.nav ul li {
+    display:inline-block;
+    background-color: black;
+    font-size: 1.5em;
+}
+
+.nav a {
+    display: block;
+    padding: 0 10px;
+    font-size: 1em;
+    line-height: 40px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.nav a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.menu {
+    display:none;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.menu:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.main-content {
+    background-color: black; 
+    font-family: "Winky Rough", sans-serif;
+    font-size: 1.3em;
+}
+
+.main {
+    clear:both;
+    background-color: black;
+    color:white;
+}
+
+.main .index_logo img{
+    float:left;
+    padding: 0px;
+    width: 25%;
+    border: 10px solid white;
+    margin: 2%;
+    border-style: ridge;
+}
+
+.main video {
+    padding-left: 50px;
+    border: 10px solid white;
+    margin: 2%;
+    border-style: ridge;
+    width: 50%;
+}
+
+.main .image_gallery {
+    background-color: black;
+}
+
+.main .image_gallery div{
+    width: 100%;
+    padding: 10px;
+    background-color: black;  
+}
+
+.main .image_gallery img {
+    border: 10px solid white;
+    padding: 20px;
+    width: 30%;  
+    display:block;
+    border-style: ridge;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.main .image_gallery button {
+  padding: 12px 24px;
+  width: 120px;
+  margin: 10px;                /* Space between buttons */
+  background: linear-gradient(90deg, black 60%, goldenrod 140%);
+  color: white;
+  border: 2px solid goldenrod;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(218, 165, 32, 0.25);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 
+    background 0.25s,
+    color 0.2s,
+    box-shadow 0.3s,
+    transform 0.1s;
+}
+
+
+article  {
+    font-size:1.5em;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    overflow:hidden;
+}
+
+article p {
+    text-align:left;
+}
+
+article::first-letter {
+    color: goldenrod;
+    font-size: 1.65em;
+}
+
+.main-content {
+  margin-top: 2rem;
+  margin-bottom: 2rem; 
+  background-color: black;
+}
+
+.timetable {
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid goldenrod;
+}
+
+.timetable h1, h2 {
+    color:white;
+}
+
+.timetable p {
+    color: goldenrod;
+    font-size: 1.2em;
+}
+
+.image_gallery {
+    border-bottom: 2px solid goldenrod;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+.news-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-card:hover {
+    transform: scale(1.1);
+}
+
+.news-card .news-date {
+    color: goldenrod;
+}
+
+.news-card a {
+    color: black;
+    font-weight: bold;
+}
+
+.news-card a:hover {
+    color:darkslateblue;
+}
+
+.news-article {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.news-article h2 {
+    color:goldenrod;
+}
+
+.main .forBorder {
+    background-color: black;
+    border-bottom: 2px solid goldenrod;
+}
+
+.honours {
+    background-color: black;
+    margin: 50px;
+    border-bottom: 2px solid goldenrod;
+}
+
+.honours p {
+    font-size: 1.5em;
+    color: goldenrod;
+}
+
+.honours img {
+    width: 175px;
+    height: 200px;
+    border: 5px solid goldenrod;
+    border-style:inset;
+}
+
+.honours h1 {
+    font-size: 3em;
+    padding-top: 50px;
+    color: white;
+}
+
+.honours h2 {
+    padding-left: 15px;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+.honours ul {
+    color: goldenrod;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.honours ul .winname {
+    color:white;
+}
+
+.honours tr {
+    padding: 10px;
+}
+
+.boxers {
+    background-color: black;
+    padding: 20px;
+    color:black;
+    border-bottom: 2px solid goldenrod;
+}
+
+.boxers div {
+    background-color: black;
+}
+
+.boxerCard h1 {
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: white;
+}
+
+.boxers select {
+    width: 300px;
+    color: white;
+    background-color: goldenrod;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    appearance: none; /* Makes custom styling work better */
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.boxers select:focus,
+.boxers select:hover {
+    border-color: black;
+    box-shadow: 0 0 5px goldenrod;
+}
+
+.boxers td {
+    vertical-align: top;
+}
+
+.boxers td:first-child {
+    text-align: left;
+}
+
+.boxers td:nth-child(2) {
+    padding-left: 30px;
+}
+
+.boxers img {
+    width:40%;
+    min-width: 30%;
+    background-color: black;
+    padding: 5px;
+    border: 3px solid white;
+    border-style:ridge;
+    border-radius: 12px;
+}
+
+.boxers p {
+    color: white;
+    font-size: 2em;
+}
+
+.boxers p::after {
+    clear:both;
+}
+
+.events {
+    background-color: black;
+    padding: 30px;
+    border-bottom: 2px solid goldenrod;
+}
+
+.eventgrid {
+    background-color: black;
+    padding: 25px;
+    border: 5px solid goldenrod;
+    border-radius: 25px;
+    border-style: inset;
+}
+
+.eventgrid th {
+    font-size: 2em;
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.eventgrid td {
+    border-bottom: 1px solid goldenrod;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.main .info {
+    background-color: black;
+    padding: 10px;
+    border-bottom: 2px solid goldenrod;
+}
+
+.main .info h2 {
+    font-size: 1.6em;
+}
+
+.main .info p {
+    font-size: 1.5em;
+    color: goldenrod;
+    padding-bottom: 15px;;
+}
+
+.main .info a {
+    color: white;
+}
+
+.main .info a:hover {
+    color:aquamarine;
+}
+
+.main .info a:visited {
+    color:white;
+}
+
+.footer {
+    text-align: center; 
+    color:goldenrod;
+    padding: 20px;
+    background-color: black;
+    font-size: 1.4em;
+    border-top: 3px solid goldenrod;
+}
+
+.footer p {
+    margin:2px;
+    padding: 0px;
+}
+
+.footer:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.footer>div{
+    float: left; 
+    background-color: black;
+}
+
+.footer img {
+    height: 20px;
+    width: 20px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color:aquamarine;
+}
+
+.footer a:visited {
+    color: white;
+}
+
+.first {
+    width: 30%;
+    text-align: left;
+}
+
+.second {
+    width: 55%;
+    text-align: left;
+}
+
+.third {
+    width: 15%;
+    text-align: left;
+}
+
+.col {
+    margin:auto;
+    width: 100%;
+    background-color: black;
+}
+
+.findus {
+    background-color: black;
+}
+
+.third ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.third li {
+    list-style: none;
+}
+
+.hide {
+    display:block;
+}
+
+@media all and (max-width: 1000px) {
+    body{
+        background-color: black;
+        padding: 5px;
+    }
+
+    .mainheading {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 1.3em;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .header-spacer {
+        display: none;  
+    }
+
+    .subheading {
+        padding-top: 0px;
+        margin-top: 0px;
+        font-size: 1em;
+        line-height: 1.5;
+    }   
+
+    .main .index_logo img{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .main video {
+        padding-left: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    header nav {
+        text-align: left;
+    }
+
+    header nav ul li {
+        display:block;
+        width: 100%;
+        font-size: 1.75em;
+    }
+
+    .menu {
+        width: 100%;
+        background-color: black;
+        color:goldenrod;
+        display:block;
+        font-size: 2em;
+    }
+
+    .main .image_gallery img {
+        width: 100%;
+        padding: 5px;  
+        margin: 0px;
+    }
+
+    .news_item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .news_img img {
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .boxers {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .boxers img {
+        width:90%;
+        min-width: 50%;
+    }
+
+    .boxers td {
+        padding-left: 5px;
+        font-size: 11px;
+    }
+
+    .boxers td:nth-child(2) {
+        vertical-align:middle;
+    }
+
+    .events {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .eventgrid {
+        padding: 0px;
+    }
+
+    .eventgrid td {
+        padding: 5px;
+    }
+
+    .honours {
+        background-color:black;
+        margin: 0px;  
+        padding: 0px;  
+    }
+
+    .honours h1 {
+        font-size: 2em;
+        padding-top: 15px;
+    }
+
+    .honours h2 {
+        font-size: 1.5em;
+        padding-left: 5px;
+    }
+
+    .honours tr td:first-child {
+        padding: 0px;
+    }
+
+    .honours tr td:nth-child(1) {
+        padding: 0px;
+    }
+
+    .honours img {
+        width: 100px;
+        height: 125px;
+    }
+
+    .honours ul {
+        font-size: 1.1em;
+        padding-left: 8px;
+    }
+
+    .first, .third {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .second {
+        width: 100%;
+        font-size: 1.2em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .hide {
+        display:none;
+    }
+}
+
+
+
+
+/*
+@media all and (max-height: 1000px) {
+    .logo img {
+        height: auto;
+        width: 75px;
+    }
+}*/
