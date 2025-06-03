@@ -1,128 +1,98 @@
-import React from "react";
 import "../style.css";
+import React from "react";
 
-export default function honours() {
+export default function Honours() {
+  const achievements = [
+    {
+      img: "./images/england_boxing.jpg",
+      alt: "England Boxing",
+      title: "England Boxing National Championships",
+      results: [
+        { text: "1 x National Champion", names: "Elin Chapman" },
+        {
+          text: "2 x National Finalists",
+          names: "Elin Chapman, Manny Mohamed",
+        },
+        { text: "1 x Development Finalist", names: "Manny Mohamed" },
+        {
+          text: "4 x National Semi-finalists",
+          names: "Elin Chapman, Manny Mohamed, Tommy Pemberton, Megan King",
+        },
+        {
+          text: "5 x National Quarter-finalists",
+          names: "2 x Manny Mohamed, 3 x Tyler O'Connor",
+        },
+      ],
+    },
+    {
+      img: "./images/NABGC.png",
+      alt: "National Boys and Girls Clubs",
+      title: "NABGC National Championships",
+      results: [
+        { text: "1 x National Champion", names: "Megan King" },
+        {
+          text: "2 x National Finalists",
+          names: "Manny Mohamed, Sophia Sanchez",
+        },
+        {
+          text: "3 x Quarter-finalists",
+          names: "Manny Mohamed, 2 x Junior Gullam",
+        },
+      ],
+    },
+    {
+      img: "./images/eastern-counties.jpg",
+      alt: "Eastern Counties Boxing",
+      title: "Eastern Counties Championships",
+      results: [
+        { text: "1 x Eastern Counties Champion", names: "TJ Jarvis-Brown" },
+        {
+          text: "3 x Eastern Counties Finalists",
+          names: "Tamuno Bamson, Stanley Brown, Luca Sechi",
+        },
+      ],
+    },
+    {
+      img: "./images/box_cups.png",
+      alt: "Box Cups",
+      title: "Box Cups",
+      results: [
+        { text: "1 x Box Cup Champion", names: "Megan King" },
+        { text: "2 x Box Cup Finalists", names: "Sophia Sanchez, Luca Sechi" },
+        { text: "1 x Box Cup Semi-finalist", names: "Sophia Sanchez" },
+      ],
+    },
+  ];
+
   return (
-    <div class="honours">
+    <section className="honours">
       <h1>Our Achievements</h1>
       <p>
         Since competitions resumed after the COVID-19 pandemic, Mid Essex Boxing
         Club has made extraordinary strides, punching well above its weight for
         a club of our size. Our dedicated boxers have showcased their skills at
         national competitions and prestigious Box Cups across the country.
-        Below, we proudly highlight some of our most significant achievements;
+        Below, we proudly highlight some of our most significant achievements:
       </p>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <img src="./images/england_boxing.jpg" />
-            </td>
-            <td>
-              <h2>England Boxing National Championships</h2>
+      <div className="honours-grid">
+        {achievements.map((item, i) => (
+          <div className="honours-card" key={i}>
+            <img src={item.img} alt={item.alt} />
+            <div className="honours-info">
+              <h2>{item.title}</h2>
               <ul>
-                <li>
-                  1 x National Champion
-                  <br /> <span class="winname">(Elin Chapman)</span>
-                </li>
-                <li>
-                  2 x National Finalists
-                  <br />{" "}
-                  <span class="winname">(Elin Chapman, Manny Mohamed)</span>
-                </li>
-                <li>
-                  1 x Development Finalist
-                  <br /> <span class="winname">(Manny Mohamed)</span>
-                </li>
-                <li>
-                  4 x National Semi-finalists
-                  <br />{" "}
-                  <span class="winname">
-                    (Elin Chapman, Manny Mohamed, Tommy Pemberton, Megan King)
-                  </span>
-                </li>
-                <li>
-                  5 x National Quarter-finalists
-                  <br />{" "}
-                  <span class="winname">
-                    (2 x Manny Mohamed, 3 x Tyler O'Connor)
-                  </span>
-                </li>
+                {item.results.map((r, j) => (
+                  <li key={j}>
+                    {r.text}
+                    <br />
+                    <span className="winname">({r.names})</span>
+                  </li>
+                ))}
               </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="./images/NABGC.png" />
-            </td>
-            <td>
-              <h2>NABGC National Championships</h2>
-              <ul>
-                <li>
-                  1 x National Champion
-                  <br /> <span class="winname">(Megan King)</span>
-                </li>
-                <li>
-                  2 x National Finalists
-                  <br />{" "}
-                  <span class="winname">(Manny Mohamed, Sophia Sanchez)</span>
-                </li>
-                <li>
-                  3 x Quarter-finalists
-                  <br />{" "}
-                  <span class="winname">
-                    (Manny Mohamed, 2 x Junior Gullam)
-                  </span>
-                </li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="./images/eastern-counties.jpg" />
-            </td>
-            <td>
-              <h2>Eastern Counties Championships</h2>
-              <ul>
-                <li>
-                  1 x Eastern Counties Champion
-                  <br /> <span class="winname">(TJ Jarvis-Brown)</span>
-                </li>
-                <li>
-                  3 x Eastern Counties Finalists
-                  <br />{" "}
-                  <span class="winname">
-                    (Tamuno Bamson, Stanley Brown, Luca Sechi)
-                  </span>
-                </li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="./images/box_cups.png" />
-            </td>
-            <td>
-              <h2>Box Cups</h2>
-              <ul>
-                <li>
-                  1 x Box Cup Champion
-                  <br /> <span class="winname">(Megan King)</span>
-                </li>
-                <li>
-                  2 x Box Cup Finalists
-                  <br />{" "}
-                  <span class="winname">(Sophia Sanchez, Luca Sechi)</span>
-                </li>
-                <li>
-                  1 x Box Cup Semi-finalist
-                  <br /> <span class="winname">(Sophia Sanchez)</span>
-                </li>
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }

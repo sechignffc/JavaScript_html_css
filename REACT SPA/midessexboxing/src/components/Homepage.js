@@ -16,7 +16,7 @@ export default function homepage() {
           destination.
         </p>
         <div className="index_logo">
-          <img src="./images/Mid-Essex_3D.jpg" />
+          <img src="./images/Mid-Essex_3D.jpg" alt="Mid Essex Logo" />
         </div>
         <video controls autoPlay loop muted>
           <source src="./training_video.mp4" type="video/mp4" />

@@ -6,8 +6,12 @@ export default function Footer() {
     <footer className="footer">
       <div className="first">
         <p>Address:</p>
-        <p>2a Church Green, Broomfield, Chelmsford, CM1 7BD</p>
-        <p>Phone: 07762 678289</p>
+        <p className="address-line">
+          2a Church Green, Broomfield, Chelmsford, CM1 7BD
+        </p>
+        <p>
+          Phone: <span className="phone-number">07762 678289</span>
+        </p>
         <p>
           Email:{" "}
           <a
@@ -41,7 +45,7 @@ export default function Footer() {
         <p>Social Media:</p>
         <ul>
           <li>
-            <img src="./images/facebook.png" />{" "}
+            <img src="./images/facebook.png" alt="Facebook" />{" "}
             <a
               href="https://www.facebook.com/MidEssexBoxingClub?locale=en_GB"
               target="_blank"
@@ -51,7 +55,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <img src="./images/instagram.png" />{" "}
+            <img src="./images/instagram.png" alt="Instagram" />{" "}
             <a
               href="https://www.instagram.com/mid.essex.boxing/"
               target="_blank"
@@ -61,7 +65,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <img src="./images/TikTok.png" />{" "}
+            <img src="./images/TikTok.png" alt="TikTok" />{" "}
             <a
               href="https://www.tiktok.com/search?q=mid%20essex%20boxing&t=1747851203244"
               target="_blank"

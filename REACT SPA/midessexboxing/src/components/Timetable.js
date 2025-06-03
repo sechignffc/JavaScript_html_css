@@ -4,21 +4,61 @@ import "../style.css";
 export default function timetable() {
   return (
     <div className="timetable">
-      <h1>Class Times</h1>
-      <h2>Monday</h2>
-      <p>Closed</p>
-      <h2>Tuesday</h2>
-      <p>17:30-18:30 - Beginners</p>
-      <p>18:15-19:20 - Juniors</p>
-      <p>19:20-20:45 - Senior Carded</p>
-      <h2>Wednesday</h2>
-      <p>Closed</p>
-      <h2>Thursday</h2>
-      <p>17:30-18:30 - Beginners</p>
-      <p>18:15-19:20 - Juniors</p>
-      <p>19:20-20:45 - Senior Carded</p>
-      <h2>Friday</h2>
-      <p>19:00 - Carded Boxers Only</p>
+      <h2>Class Times</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td colspan="2">Closed</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>17:30 - 18:30</td>
+            <td>Beginners</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>18:15 - 19:20</td>
+            <td>Juniors</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>19:20 - 20:45</td>
+            <td>Senior Carded</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td colspan="2">Closed</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>17:30 - 18:30</td>
+            <td>Beginners</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>18:15 - 19:20</td>
+            <td>Juniors</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>19:20 - 20:45</td>
+            <td>Senior Carded</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>19:00</td>
+            <td>Carded Boxers Only</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
