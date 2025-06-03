@@ -5,15 +5,15 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="first">
-        <p>Address:</p>
+        <p>&#128205;Address:</p>
         <p className="address-line">
           2a Church Green, Broomfield, Chelmsford, CM1 7BD
         </p>
         <p>
-          Phone: <span className="phone-number">07762 678289</span>
+          &#128222; Phone: <span className="phone-number">07762 678289</span>
         </p>
         <p>
-          Email:{" "}
+          &#9993; Email:{" "}
           <a
             href="mailto:midessexboxingclub@gmail.com"
             target="_blank"
@@ -28,7 +28,7 @@ export default function Footer() {
           <p>Find Us:</p>
           <div className="findus">
             <p>
-              To help find us, watch{" "}
+              📍To help find us, watch{" "}
               <a
                 href="https://www.instagram.com/p/ChwuXtNr2Pz/"
                 target="_blank"

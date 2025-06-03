@@ -13,7 +13,7 @@ const NewsGrid = () => (
           alt={item.headline}
           style={{
             width: "100%",
-            maxHeight: "150px",
+            maxHeight: "250px",
             objectFit: "cover",
             borderRadius: "6px",
           }}
@@ -24,7 +24,9 @@ const NewsGrid = () => (
         >
           {item.date}
         </div>
-        <div style={{ fontSize: "1.1em", marginTop: "0.5em" }}>
+        <div
+          style={{ fontSize: "1.1em", marginTop: "0.5em", textAlign: "center" }}
+        >
           <Link to={`/news/${idx}`}>{item.headline}</Link>
         </div>
       </div>

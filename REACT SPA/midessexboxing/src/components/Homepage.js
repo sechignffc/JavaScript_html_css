@@ -6,13 +6,13 @@ export default function homepage() {
     <div className="main">
       <article>
         <p>
-          Welcome to Mid Essex Boxing Club, where champions are built one round
-          at a time. Whether you're stepping into the ring for fitness,
+          Welcome to Mid Essex Boxing Academy, where champions are built one
+          round at a time. Whether you're stepping into the ring for fitness,
           confidence, or the thrill of competition, our club is a home for
           everyone ready to challenge themselves and grow. Here, every punch is
           a step toward strength, discipline, and self-belief. Join our
           supportive community and discover what you're truly capable of—because
-          at Mid Essex Boxing Club, your journey matters as much as the
+          at Mid Essex Boxing Academy, your journey matters as much as the
           destination.
         </p>
         <div className="index_logo">
@@ -24,7 +24,7 @@ export default function homepage() {
       </article>
       <article>
         <p>
-          At Mid Essex Boxing Club, our training methods blend time-tested
+          At Mid Essex Boxing Academy, our training methods blend time-tested
           boxing fundamentals with the latest advancements in sports science.
           Each session is thoughtfully structured, combining technical drills,
           high-intensity interval training, and tailored conditioning circuits
@@ -42,7 +42,7 @@ export default function homepage() {
       </article>
       <article>
         <p>
-          The boxers at Mid Essex Boxing Club have achieved incredible
+          The boxers at Mid Essex Boxing Academy have achieved incredible
           milestones, both in and out of the ring. Our members have earned
           regional titles, represented Essex at national championships, and
           brought home trophies from some of the most respected amateur
@@ -55,7 +55,7 @@ export default function homepage() {
           Whether it's stepping up for their first spar, volunteering in the
           community, or supporting fellow teammates, our boxers embody the true
           spirit of dedication and sportsmanship that defines Mid Essex Boxing
-          Club.
+          Academy.
         </p>
       </article>
     </div>

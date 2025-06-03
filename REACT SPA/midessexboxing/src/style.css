@@ -237,7 +237,7 @@ article::first-letter {
 
 .news-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-columns: repeat(auto-fill, 350px);
     gap: 2rem;
     padding: 1rem;
     justify-content: center;
@@ -452,6 +452,7 @@ article::first-letter {
 
 .event-card {
     background: white;
+    position: relative; 
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 1.2rem 1rem 1rem 1rem;
@@ -462,7 +463,7 @@ article::first-letter {
 }
 
 .event-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #2353a0; /* Use a main accent color consistent with your site */
     margin-bottom: 0.6rem;
@@ -650,8 +651,8 @@ article::first-letter {
 }
 
 .footer img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
 
 .footer a {
@@ -684,11 +685,6 @@ article::first-letter {
     text-align: left;
 }
 
-.third {
-    width: 15%;
-    text-align: left;
-}
-
 .col {
     margin:auto;
     width: 100%;
@@ -699,6 +695,11 @@ article::first-letter {
     background-color: black;
 }
 
+.third {
+    width: 15%;
+    text-align: left;
+}
+
 .third ul {
     padding-left: 0px;
     margin: 0px;
@@ -706,6 +707,12 @@ article::first-letter {
 
 .third li {
     list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.third a {
+    padding-left: 5px;
 }
 
 .hide {
@@ -821,6 +828,19 @@ article::first-letter {
     .news_img img {
         max-width: 100vw;
         height: auto;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);  /* 3 equal columns */
+        max-width: 100%;                       /* ensure it doesn’t overflow */
+    }
+
+    .gallery-card img {
+        max-height: 150px;    /* smaller image height */
+    }
+
+    .gallery-card:hover {
+        transform: scale(1.1); /* smaller hover scale to avoid overflow/pinch zoom */
     }
 
     .event-grid {

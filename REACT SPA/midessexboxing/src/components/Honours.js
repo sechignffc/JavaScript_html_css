@@ -66,18 +66,22 @@ export default function Honours() {
 
   return (
     <section className="honours">
-      <h1>Our Achievements</h1>
+      <h1>Our Achievements &#127942;</h1>
       <p>
         Since competitions resumed after the COVID-19 pandemic, Mid Essex Boxing
-        Club has made extraordinary strides, punching well above its weight for
-        a club of our size. Our dedicated boxers have showcased their skills at
-        national competitions and prestigious Box Cups across the country.
+        Academy has made extraordinary strides, punching well above its weight
+        for a club of our size. Our dedicated boxers have showcased their skills
+        at national competitions and prestigious Box Cups across the country.
         Below, we proudly highlight some of our most significant achievements:
       </p>
       <div className="honours-grid">
         {achievements.map((item, i) => (
           <div className="honours-card" key={i}>
-            <img src={item.img} alt={item.alt} />
+            <img
+              src={item.img}
+              alt={item.alt}
+              style={{ objectFit: "contain", background: "white" }}
+            />
             <div className="honours-info">
               <h2>{item.title}</h2>
               <ul>
